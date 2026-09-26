@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,26 +10,29 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://pranshukaundilya.me/">
+    <meta property="og:url" content="https://pranshukumarsingh.me/">
     <meta property="og:title" content="Pranshu Kumar Singh — AI & Digital Systems Portfolio">
     <meta property="og:description"
         content="B.Tech CSE (AI & ML) Student. Designing intelligent systems where logic meets editorial elegance.">
-    <meta property="og:image" content="https://pranshukaundilya.me/profile.png">
+    <meta property="og:image" content="https://pranshukumarsingh.me/profile.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://pranshukaundilya.me/">
-    <meta property="twitter:title" content="Pranshu Kumar Singh    — AI & Digital Systems Portfolio">
+    <meta property="twitter:url" content="https://pranshukumarsingh.me/">
+    <meta property="twitter:title" content="Pranshu Kumar Singh — AI & Digital Systems Portfolio">
     <meta property="twitter:description"
         content="B.Tech CSE (AI & ML) Student. Designing intelligent systems where logic meets editorial elegance.">
-    <meta property="twitter:image" content="https://pranshukaundilya.me/profile.png">
+    <meta property="twitter:image" content="https://pranshukumarsingh.me/profile.png">
 
     <link rel="preload" as="image" href="profile.png" fetchpriority="high">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100&family=JetBrains+Mono:wght@100..800&display=swap"
         rel="stylesheet" media="print" onload="this.media='all'">
+
     <noscript>
         <link
             href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100&family=JetBrains+Mono:wght@100..800&display=swap"
@@ -48,41 +51,43 @@
         "https://www.linkedin.com/in/pranshu-kumar-singh-aa593b275/your-linkedin-handle",
         "https://github.com/Pranshu250499your-github-handle"
       ],
-      "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Python", "C Programming", "Prompt Engineering"]
+      "knowsAbout": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Python",
+        "C Programming",
+        "Prompt Engineering"
+      ]
     }
     </script>
+
     <style>
         /* ===================================
            CSS VARIABLES & RESET
         =================================== */
+
         :root {
             --bg-ivory: #FAF8F3;
             --bg-cream: #F0EBE0;
 
-            /* IDENTITY: Strong focal color */
             --text-charcoal: #1A1A1A;
 
-            /* NO BLACK: warm ink */
             --ink: #111111;
-            /* primary text (warm charcoal) */
             --ink-2: #241F1A;
-            /* secondary */
             --ink-3: #4D4741;
-            /* muted */
 
             --accent-gold: #7A6031;
             --accent-burgundy: #8B4A3C;
 
-            /* Warm deep brown for dark blocks */
             --deep: #1A1816;
             --deep-2: #141210;
 
             --divider: rgba(42, 38, 34, 0.25);
             --mobile-pad: 22px;
+
             --transition-smooth: cubic-bezier(0.22, 1, 0.36, 1);
             --transition-material: cubic-bezier(0.4, 0, 0.2, 1);
 
-            /* --- Spacing Tokens (8px grid) --- */
             --space-unit: 8px;
             --space-2x: 16px;
             --space-3x: 24px;
@@ -90,7 +95,6 @@
             --space-6x: 48px;
             --space-8x: 64px;
 
-            /* --- Depth & Consistency Tokens --- */
             --radius-card: 16px;
             --radius-btn: 12px;
             --radius-pill: 999px;
@@ -111,9 +115,7 @@
             touch-action: manipulation;
         }
 
-        /* Desktop only */
         @media (hover: hover) and (pointer: fine) {
-
             *,
             *::before,
             *::after {
@@ -206,7 +208,8 @@
             z-index: 10000;
             border-radius: 50%;
             transform: translate(-50%, -50%);
-            transition: width 0.25s var(--transition-material),
+            transition:
+                width 0.25s var(--transition-material),
                 height 0.25s var(--transition-material),
                 background 0.25s var(--transition-material),
                 border-color 0.25s var(--transition-material);
@@ -297,7 +300,8 @@
             justify-content: space-between;
             align-items: center;
             z-index: 900;
-            transition: padding 0.4s var(--transition-material),
+            transition:
+                padding 0.4s var(--transition-material),
                 background 0.4s var(--transition-material);
         }
 
@@ -436,8 +440,17 @@
         .mobile-overlay {
             position: fixed;
             inset: 0;
-            background: radial-gradient(1200px 600px at 20% 10%, rgba(201, 169, 110, 0.12), transparent 60%),
-                linear-gradient(180deg, var(--deep) 0%, var(--deep-2) 100%);
+            background:
+                radial-gradient(
+                    1200px 600px at 20% 10%,
+                    rgba(201, 169, 110, 0.12),
+                    transparent 60%
+                ),
+                linear-gradient(
+                    180deg,
+                    var(--deep) 0%,
+                    var(--deep-2) 100%
+                );
             z-index: 999;
             display: flex;
             flex-direction: column;
@@ -458,11 +471,13 @@
             top: 0;
             bottom: 0;
             width: 2px;
-            background: linear-gradient(180deg,
-                    transparent 0%,
-                    var(--accent-gold) 30%,
-                    var(--accent-gold) 70%,
-                    transparent 100%);
+            background: linear-gradient(
+                180deg,
+                transparent 0%,
+                var(--accent-gold) 30%,
+                var(--accent-gold) 70%,
+                transparent 100%
+            );
             opacity: 0;
             transition: opacity 0.5s ease 0.2s;
         }
@@ -479,7 +494,10 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: calc(22px + env(safe-area-inset-top)) 24px 22px;
+            padding:
+                calc(22px + env(safe-area-inset-top))
+                24px
+                22px;
             border-bottom: 1px solid rgba(201, 169, 110, 0.12);
             z-index: 2;
         }
@@ -572,7 +590,8 @@
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
             opacity: 0;
             transform: translateX(-24px);
-            transition: opacity 0.4s ease,
+            transition:
+                opacity 0.4s ease,
                 transform 0.4s var(--transition-smooth),
                 color 0.25s ease;
         }
@@ -598,7 +617,9 @@
             color: var(--accent-gold);
             opacity: 0;
             transform: translateX(-10px);
-            transition: opacity 0.2s ease, transform 0.25s var(--transition-smooth);
+            transition:
+                opacity 0.2s ease,
+                transform 0.25s var(--transition-smooth);
         }
 
         .mobile-link:hover .link-arrow,
@@ -717,7 +738,13 @@
         .hero-divider {
             width: 1px;
             height: 40vh;
-            background: linear-gradient(180deg, transparent, rgba(201, 169, 110, 0.25), transparent);
+            background:
+                linear-gradient(
+                    180deg,
+                    transparent,
+                    rgba(201, 169, 110, 0.25),
+                    transparent
+                );
             margin: 0 60px;
         }
 
@@ -894,7 +921,9 @@
             object-fit: cover;
             object-position: 35% top;
             filter: saturate(1) sepia(0.05) contrast(1.02);
-            transition: filter 0.6s var(--transition-material), transform 0.6s var(--transition-material);
+            transition:
+                filter 0.6s var(--transition-material),
+                transform 0.6s var(--transition-material);
             image-rendering: -webkit-optimize-contrast;
             will-change: filter, transform;
             -webkit-touch-callout: none;
@@ -994,12 +1023,21 @@
         .about-sep {
             width: 1px;
             height: 100%;
-            background: linear-gradient(180deg, transparent 0%, var(--accent-gold) 30%, var(--accent-gold) 70%, transparent 100%);
+            background:
+                linear-gradient(
+                    180deg,
+                    transparent 0%,
+                    var(--accent-gold) 30%,
+                    var(--accent-gold) 70%,
+                    transparent 100%
+                );
             margin: 0 10px;
             opacity: 0.35;
         }
 
-        .about-lg-text {
+        /* ...rest of the original CSS continues... */
+
+                .about-lg-text {
             font-family: 'Cormorant Garamond', serif;
             font-size: 36px;
             font-style: italic;
@@ -1372,7 +1410,12 @@
         .section-separator .line {
             flex-grow: 1;
             height: 1px;
-            background: linear-gradient(90deg, transparent, var(--accent-gold), transparent);
+            background: linear-gradient(
+                90deg,
+                transparent,
+                var(--accent-gold),
+                transparent
+            );
         }
 
         .section-separator .num {
@@ -1499,7 +1542,11 @@
         }
 
         .contact-blk {
-            background: linear-gradient(180deg, var(--deep) 0%, var(--deep-2) 100%);
+            background: linear-gradient(
+                180deg,
+                var(--deep) 0%,
+                var(--deep-2) 100%
+            );
             color: #fff;
             position: relative;
             overflow: hidden;
@@ -1625,7 +1672,9 @@
         .reveal {
             opacity: 1;
             transform: none;
-            transition: opacity 1s var(--transition-smooth), transform 1s var(--transition-smooth);
+            transition:
+                opacity 1s var(--transition-smooth),
+                transform 1s var(--transition-smooth);
             will-change: transform, opacity;
         }
 
@@ -1647,6 +1696,7 @@
         }
 
         @media (max-width: 1100px) {
+
             .container {
                 padding: 0 48px;
             }
@@ -1684,11 +1734,17 @@
             }
 
             nav {
-                padding: calc(16px + env(safe-area-inset-top)) var(--mobile-pad) 16px;
+                padding:
+                    calc(16px + env(safe-area-inset-top))
+                    var(--mobile-pad)
+                    16px;
             }
 
             nav.scrolled {
-                padding: calc(12px + env(safe-area-inset-top)) var(--mobile-pad) 12px;
+                padding:
+                    calc(12px + env(safe-area-inset-top))
+                    var(--mobile-pad)
+                    12px;
             }
 
             .nav-links {
@@ -1715,7 +1771,9 @@
                 min-height: 280px;
                 max-height: 480px;
                 margin: 0 0 0 calc(-1 * var(--mobile-pad));
-                width: calc(100% + var(--mobile-pad) * 2);
+                width: calc(
+                    100% + var(--mobile-pad) * 2
+                );
             }
 
             .hero-divider {
@@ -1855,7 +1913,11 @@
 
             .timeline-row {
                 grid-template-columns: 1fr;
-                padding: var(--space-6x) 0 var(--space-4x) 32px;
+                padding:
+                    var(--space-6x)
+                    0
+                    var(--space-4x)
+                    32px;
                 gap: var(--space-unit);
             }
 
@@ -1941,502 +2003,1572 @@
 </head>
 
 <body>
+
     <a href="#about" class="skip-link">Skip to main content</a>
+
     <div class="noise-overlay"></div>
+
     <div class="cursor-ring" id="ring"></div>
 
     <!-- ========== NAVIGATION ========== -->
+
     <nav id="nav">
+
         <a href="#" class="nav-logo">
-            <span class="nav-logo-my">my</span><span class="nav-logo-portfolio">portfolio</span><span
-                class="nav-logo-dot">.</span>
+            <span class="nav-logo-my">my</span>
+            <span class="nav-logo-portfolio">portfolio</span>
+            <span class="nav-logo-dot">.</span>
         </a>
+
         <div class="nav-links">
-            <a href="#about" class="nav-link">About</a>
-            <a href="#skills" class="nav-link">Skills</a>
-            <a href="#projects" class="nav-link">Work</a>
-            <a href="#experience" class="nav-link">Academics</a>
-            <a href="#contact" class="nav-link">Contact</a>
+
+            <a href="#about" class="nav-link">
+                About
+            </a>
+
+            <a href="#skills" class="nav-link">
+                Skills
+            </a>
+
+            <a href="#projects" class="nav-link">
+                Work
+            </a>
+
+            <a href="#experience" class="nav-link">
+                Academics
+            </a>
+
+            <a href="#contact" class="nav-link">
+                Contact
+            </a>
+
         </div>
-        <button class="hamburger-btn" id="hamburger-btn" aria-label="Open menu" aria-expanded="false">
+
+        <button
+            class="hamburger-btn"
+            id="hamburger-btn"
+            aria-label="Open menu"
+            aria-expanded="false">
+
             <span class="hamburg-line"></span>
             <span class="hamburg-line"></span>
             <span class="hamburg-line"></span>
+
         </button>
+
     </nav>
 
     <!-- ========== MOBILE OVERLAY MENU ========== -->
-    <div class="mobile-overlay" id="mobile-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+
+    <div
+        class="mobile-overlay"
+        id="mobile-overlay"
+        role="dialog"
+        aria-modal="true"
+        aria-hidden="true">
 
         <div class="overlay-header">
+
             <span class="overlay-logo">
+
                 <span
-                    style="font-family: 'DM Sans', sans-serif; font-weight: 200; font-style: italic; color: var(--accent-gold); font-size: 11px; letter-spacing: 0.1em; opacity: 0.8; margin-right: 2px;">my</span><span
-                    style="font-family: 'Cormorant Garamond', serif; font-weight: 600; color: rgba(255,255,255,0.5); font-size: 18px; letter-spacing: -0.03em;">portfolio</span><span
-                    class="overlay-logo-dot">.</span>
+                    style="
+                        font-family: 'DM Sans', sans-serif;
+                        font-weight: 200;
+                        font-style: italic;
+                        color: var(--accent-gold);
+                        font-size: 11px;
+                        letter-spacing: 0.1em;
+                        opacity: 0.8;
+                        margin-right: 2px;
+                    ">
+                    my
+                </span>
+
+                <span
+                    style="
+                        font-family: 'Cormorant Garamond', serif;
+                        font-weight: 600;
+                        color: rgba(255,255,255,0.5);
+                        font-size: 18px;
+                        letter-spacing: -0.03em;
+                    ">
+                    portfolio
+                </span>
+
+                <span class="overlay-logo-dot">
+                    .
+                </span>
+
             </span>
-            <button class="overlay-close-btn" id="overlay-close-btn" aria-label="Close menu">&#x2715;</button>
+
+            <button
+                class="overlay-close-btn"
+                id="overlay-close-btn"
+                aria-label="Close menu">
+                &#x2715;
+            </button>
+
         </div>
 
-        <nav class="overlay-nav-list" aria-label="Mobile navigation">
-            <a href="#about" class="mobile-link" data-section="about">
-                <span class="link-idx">01</span>About<span class="link-arrow">&#x2192;</span>
+        <nav
+            class="overlay-nav-list"
+            aria-label="Mobile navigation">
+
+            <a
+                href="#about"
+                class="mobile-link"
+                data-section="about">
+
+                <span class="link-idx">
+                    01
+                </span>
+
+                About
+
+                <span class="link-arrow">
+                    &#x2192;
+                </span>
+
             </a>
-            <a href="#skills" class="mobile-link" data-section="skills">
-                <span class="link-idx">02</span>Skills<span class="link-arrow">&#x2192;</span>
+
+            <a
+                href="#skills"
+                class="mobile-link"
+                data-section="skills">
+
+                <span class="link-idx">
+                    02
+                </span>
+
+                Skills
+
+                <span class="link-arrow">
+                    &#x2192;
+                </span>
+
             </a>
-            <a href="#projects" class="mobile-link" data-section="projects">
-                <span class="link-idx">03</span>Work<span class="link-arrow">&#x2192;</span>
+
+            <a
+                href="#projects"
+                class="mobile-link"
+                data-section="projects">
+
+                <span class="link-idx">
+                    03
+                </span>
+
+                Work
+
+                <span class="link-arrow">
+                    &#x2192;
+                </span>
+
             </a>
-            <a href="#experience" class="mobile-link" data-section="experience">
-                <span class="link-idx">04</span>Academics<span class="link-arrow">&#x2192;</span>
+
+            <a
+                href="#experience"
+                class="mobile-link"
+                data-section="experience">
+
+                <span class="link-idx">
+                    04
+                </span>
+
+                Academics
+
+                <span class="link-arrow">
+                    &#x2192;
+                </span>
+
             </a>
-            <a href="#contact" class="mobile-link" data-section="contact">
-                <span class="link-idx">05</span>Contact<span class="link-arrow">&#x2192;</span>
+
+            <a
+                href="#contact"
+                class="mobile-link"
+                data-section="contact">
+
+                <span class="link-idx">
+                    05
+                </span>
+
+                Contact
+
+                <span class="link-arrow">
+                    &#x2192;
+                </span>
+
             </a>
+
         </nav>
 
         <div class="overlay-footer">
-            <span>Pranshu Kaundilya</span>
-            <span class="overlay-footer-dot">&middot;</span>
-            <span>Portfolio 2026</span>
+
+            <span>
+                Pranshu Kumar Singh
+            </span>
+
+            <span class="overlay-footer-dot">
+                &middot;
+            </span>
+
+            <span>
+                Portfolio 2026
+            </span>
+
         </div>
 
     </div>
 
-
     <div class="container">
 
         <!-- ========== HERO ========== -->
+
         <section class="hero">
+
             <div class="hero-text">
 
                 <h1 class="hero-title">
+
                     Pranshu
-                    <span class="name-high">Kr. Singh</span>
+
+                    <span class="name-high">
+                        Kr. Singh
+                    </span>
+
                 </h1>
+
                 <p class="hero-intro">
                     B.Tech CSE student. Building systems where intelligence meets intentional design.
                 </p>
+
                 <div class="hero-meta">
-                    <span>Computer Science & Engineering • AI & ML</span>
-                    <span class="dot">•</span>
-                    <span>Python • C • Machine Learning</span>
+
+                    <span>
+                        Computer Science & Engineering • AI & ML
+                    </span>
+
+                    <span class="dot">
+                        •
+                    </span>
+
+                    <span>
+                        Python • C • Machine Learning
+                    </span>
+
                 </div>
+
                 <div class="hero-btn-group">
-                    <a href="#contact" class="nav-btn">
-                        <span>Inquire <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+
+                    <a
+                        href="#contact"
+                        class="nav-btn">
+
+                        <span>
+
+                            Inquire
+
+                            <svg
+                                width="12"
+                                height="12"
+                                viewBox="0 0 12 12"
+                                fill="none"
                                 style="margin-left:8px;">
-                                <path d="M1 11L11 1M11 1H4M11 1V8" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg></span>
+
+                                <path
+                                    d="M1 11L11 1M11 1H4M11 1V8"
+                                    stroke="currentColor"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+
+                            </svg>
+
+                        </span>
+
                     </a>
-                    <a href="#projects" class="nav-btn-ghost">
-                        View Work <svg width="12" height="12" viewBox="0 0 12 12" fill="none" style="margin-left:8px;">
-                            <path d="M1 6H11M11 6L6 1M11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                stroke-linecap="round" stroke-linejoin="round" />
+
+                    <a
+                        href="#projects"
+                        class="nav-btn-ghost">
+
+                        View Work
+
+                        <svg
+                            width="12"
+                            height="12"
+                            viewBox="0 0 12 12"
+                            fill="none"
+                            style="margin-left:8px;">
+
+                            <path
+                                d="M1 6H11M11 6L6 1M11 6L6 11"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round" />
+
                         </svg>
+
                     </a>
+
                 </div>
-            </div>
-            <div class="hero-divider"></div>
-            <div class="hero-image-wrap">
-                <div class="img-bracket b-tl"></div>
-                <div class="img-bracket b-br"></div>
-                <img src="profile.jpeg" width="800" height="960" alt="Pranshu Kaundilya portrait"
-                    class="hero-img" decoding="async">
 
             </div>
+
+            <div class="hero-divider"></div>
+
+            <div class="hero-image-wrap">
+
+                <div class="img-bracket b-tl"></div>
+
+                <div class="img-bracket b-br"></div>
+
+                <img
+                    src="profile.jpeg"
+                    width="800"
+                    height="960"
+                    alt="Pranshu Kumar Singh portrait"
+                    class="hero-img"
+                    decoding="async">
+
+            </div>
+
         </section>
 
         <!-- ========== ABOUT ========== -->
+
         <div class="section-separator">
+
             <div class="line"></div>
-            <div class="num">01</div>
+
+            <div class="num">
+                01
+            </div>
+
             <div class="line"></div>
+
         </div>
-        <section id="about" class="reveal">
-            <span class="section-tag">01 — About</span>
+
+        <section
+            id="about"
+            class="reveal">
+
+            <span class="section-tag">
+                01 — About
+            </span>
+
             <div class="about-wrap">
+
                 <div class="about-lg-text">
+
                     &ldquo;True design is not decoration&thinsp;&mdash;&thinsp;it&rsquo;s clarity engineered into
                     form.&rdquo;
-                    <span class="about-attribution">— Pranshu Kaundilya</span>
+
+                    <span class="about-attribution">
+                        — Pranshu Kumar Singh
+                    </span>
+
                     <div class="about-stats">
+
                         <div>
-                            <span class="about-stat-num">3+</span>
-                            <span class="about-stat-label">Projects</span>
+
+                            <span class="about-stat-num">
+                                3+
+                            </span>
+
+                            <span class="about-stat-label">
+                                Projects
+                            </span>
+
                         </div>
+
                         <div>
-                            <span class="about-stat-num">2</span>
-                            <span class="about-stat-label">Domains</span>
+
+                            <span class="about-stat-num">
+                                AI
+                            </span>
+
+                            <span class="about-stat-label">
+                                Focus
+                            </span>
+
                         </div>
+
                         <div>
-                            <span class="about-stat-num">AI</span>
-                            <span class="about-stat-label">& ML Focus</span>
+
+                            <span class="about-stat-num">
+                                2026
+                            </span>
+
+                            <span class="about-stat-label">
+                                Portfolio
+                            </span>
+
                         </div>
+
                     </div>
+
                 </div>
+
                 <div class="about-sep"></div>
+
                 <div class="about-p-text">
-                    <p>I'm a B.Tech Computer Science & Engineering student specializing in Artificial Intelligence
-                        and Machine Learning, focused on architecting systems where computational rigor meets
-                        intentional design. My work is defined by a commitment to structural clarity and
-                        problem-driven engineering.</p>
+
+                    <p>
+                        I’m Pranshu Kumar Singh, a B.Tech CSE student focused on Artificial Intelligence and
+                        Machine Learning. I enjoy building intelligent systems that solve practical problems
+                        while keeping the experience simple, clear, and purposeful.
+                    </p>
+
                     <hr class="about-divider">
-                    <p>From emergency-response platforms to digital credentialing systems and prompt-engineered
-                        visual media, I enjoy bridging technical fundamentals with high-clarity, purposeful
-                        experiences.</p>
+
+                    <p>
+                        My work sits at the intersection of software engineering, machine learning,
+                        data analysis, and digital design. I’m constantly exploring new technologies,
+                        experimenting with ideas, and turning concepts into working systems.
+                    </p>
+
                 </div>
+
             </div>
+
         </section>
-        <div class="section-separator">
-            <div class="line"></div>
-            <div class="num">02</div>
-            <div class="line"></div>
-        </div>
+
         <!-- ========== SKILLS ========== -->
-        <section id="skills" class="reveal">
-            <span class="section-tag">02 — Expertise</span>
-            <h2 class="h-large">Skill Architecture</h2>
-            <span class="skill-sub">Core disciplines. One coherent practice.</span>
+
+        <div class="section-separator">
+
+            <div class="line"></div>
+
+            <div class="num">
+                02
+            </div>
+
+            <div class="line"></div>
+
+        </div>
+
+        <section
+            id="skills"
+            class="reveal">
+
+            <span class="section-tag">
+                02 — Capabilities
+            </span>
+
+            <h2 class="h-large">
+                Skills & Expertise
+            </h2>
+
             <div class="skill-matrix">
+
                 <div class="skill-unit">
-                    <span class="skill-idx">01</span>
-                    <h3>Computational Systems</h3>
-                    <p>Strong foundation in algorithmic thinking, logical reasoning, and structured problem-solving
-                        through C and Python, with an emphasis on efficient, purpose-driven design.</p>
+
+                    <span class="skill-idx">
+                        01
+                    </span>
+
+                    <h3>
+                        Programming
+                    </h3>
+
+                    <p>
+                        Python, C, HTML, CSS, JavaScript and modern programming fundamentals
+                        with a focus on clean and maintainable code.
+                    </p>
+
                 </div>
+
                 <div class="skill-unit">
-                    <span class="skill-idx">02</span>
-                    <h3>Machine Learning Fundamentals</h3>
-                    <p>Studying core ML concepts and applying them to real-world problem framing, from data handling
-                        to model reasoning.</p>
+
+                    <span class="skill-idx">
+                        02
+                    </span>
+
+                    <h3>
+                        AI & Machine Learning
+                    </h3>
+
+                    <p>
+                        Machine learning workflows, data preprocessing, model development,
+                        AI-assisted systems and practical experimentation.
+                    </p>
+
                 </div>
+
                 <div class="skill-unit">
-                    <span class="skill-idx">03</span>
-                    <h3>System & Interface Design</h3>
-                    <p>Designing system flow diagrams, dashboards, and app interface mockups that bridge technical
-                        logic with usable, high-clarity interfaces.</p>
+
+                    <span class="skill-idx">
+                        03
+                    </span>
+
+                    <h3>
+                        Data & Analytics
+                    </h3>
+
+                    <p>
+                        Data analysis, visualization, insights generation and interactive
+                        analytical applications using Python-based tools.
+                    </p>
+
                 </div>
+
                 <div class="skill-unit">
-                    <span class="skill-idx">04</span>
-                    <h3>Prompt Engineering & Synthetic Media</h3>
-                    <p>Crafting high-realism digital portraiture and synthetic media through camera and hardware
-                        modeling, lighting setups, and subject consistency across scenes.</p>
+
+                    <span class="skill-idx">
+                        04
+                    </span>
+
+                    <h3>
+                        Design & Systems
+                    </h3>
+
+                    <p>
+                        UI design, responsive web experiences, system architecture,
+                        product thinking and visual communication.
+                    </p>
+
                 </div>
+
             </div>
+
         </section>
 
-        <div class="section-separator">
-            <div class="line"></div>
-            <div class="num">03</div>
-            <div class="line"></div>
-        </div>
         <!-- ========== PROJECTS ========== -->
-        <section id="projects" class="reveal">
-            <span class="section-tag">03 — Selected Work</span>
+
+        <div class="section-separator">
+
+            <div class="line"></div>
+
+            <div class="num">
+                03
+            </div>
+
+            <div class="line"></div>
+
+        </div>
+
+        <section
+            id="projects"
+            class="reveal">
+
+            <span class="section-tag">
+                03 — Selected Work
+            </span>
+
             <div
-                style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 24px; margin-bottom: 60px;">
-                <h2 class="h-large" style="margin-bottom: 0;">Selected Work</h2>
-                <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: baseline;
+                    flex-wrap: wrap;
+                    gap: 24px;
+                    margin-bottom: 60px;
+                ">
+
+                <h2
+                    class="h-large"
+                    style="margin-bottom: 0;">
+
+                    Selected Work
+
+                </h2>
+
+                <div
+                    style="
+                        display: flex;
+                        gap: 12px;
+                        flex-wrap: wrap;
+                    ">
+
                     <span class="lang-tag">
-                        <span class="lang-dot" style="background: #3572A5;"></span> Python
+
+                        <span
+                            class="lang-dot"
+                            style="background: #3572A5;">
+                        </span>
+
+                        Python
+
                     </span>
+
                     <span class="lang-tag">
-                        <span class="lang-dot" style="background: #555555;"></span> C
+
+                        <span
+                            class="lang-dot"
+                            style="background: #555555;">
+                        </span>
+
+                        C
+
                     </span>
+
                     <span class="lang-tag">
-                        <span class="lang-dot" style="background: #7A6031;"></span> Design
+
+                        <span
+                            class="lang-dot"
+                            style="background: #7A6031;">
+                        </span>
+
+                        Design
+
                     </span>
+
                 </div>
+
             </div>
 
-
             <div class="repos-grid">
+
                 <!-- Project 1: Emergency Response System — FEATURED -->
+
                 <div class="repo-item repo-featured">
-                    <span class="repo-idx">01</span>
-                    <div class="repo-info-col">
-                        <span class="sih-badge">🚨 Concept & System Design</span>
-                        <span class="repo-stack">Automated SOS • Real-Time Routing • Mapping</span>
-                        <h3>Intelligent Emergency Response & Accident Alert System</h3>
-                        <p class="repo-desc">An automated emergency platform designed for rapid accident and SOS
-                            detection to minimize medical intervention delays. Instantly shares live victim
-                            coordinates with emergency services, nearby hospitals, and dispatched ambulances,
-                            while identifying the nearest available medical facilities and calculating optimal
-                            routes using real-time traffic data. Designed with full system flow diagrams, mapping
-                            dashboards, and app interface mockups bridging detection with emergency care.</p>
-                        <div class="view-repo">View Case Study <svg width="14" height="14" viewBox="0 0 14 14"
-                                fill="none" style="margin-left:12px;">
-                                <path d="M2.5 7H11.5M11.5 7L7.5 3M11.5 7L7.5 11" stroke="currentColor"
-                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg></div>
-                    </div>
-                    <div class="repo-side-col">
-                        <span class="repo-stat">Automated SOS</span>
-                        <span class="repo-stat">Route Optimization</span>
-                        <span class="repo-stat">System Architecture</span>
-                    </div>
-                </div>
 
-    
-                <!-- Project 2: Visual Identity & Media Generation -->
-                <div class="repo-item repo-foundation">
-                    <span class="repo-idx">03</span>
-                    <div class="repo-info-col">
-                        <span class="repo-stack">Prompt Engineering • Synthetic Media</span>
-                        <h3>Visual Identity & Media Generation</h3>
-                        <p class="repo-desc">Prompt engineering for high-realism digital portraiture and synthetic
-                            media — including camera and hardware modeling (85mm lens simulations, iPhone optics),
-                            specific lighting setups, and subject consistency across custom scenes.</p>
-                        <div class="view-repo">View Details <svg width="14" height="14" viewBox="0 0 14 14"
-                                fill="none" style="margin-left:12px;">
-                                <path d="M2.5 7H11.5M11.5 7L7.5 3M11.5 7L7.5 11" stroke="currentColor"
-                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg></div>
-                    </div>
-                    <div class="repo-side-col">
-                        <span class="repo-stat">Camera Modeling</span>
-                        <span class="repo-stat">Lighting Design</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    <span class="repo-idx">
+                        01
+                    </span>
 
-        <div class="section-separator">
-            <div class="line"></div>
-            <div class="num">04</div>
-            <div class="line"></div>
-        </div>
-        <!-- ========== ACADEMIC JOURNEY ========== -->
-        <section id="experience" class="reveal">
-            <span class="section-tag">04 — Academic Journey</span>
-            <h2 class="h-large">Foundational Trajectory</h2>
-            <div class="timeline-list">
-                <div class="timeline-row">
-                    <div class="time-label time-label-active">
-                        <span class="pulse-dot" style="flex-shrink:0;"></span>
-                        Active
-                    </div>
-                    <div class="timeline-content">
-                        <h3>B.Tech &mdash; Computer Science & Engineering</h3>
-                        <p>
-                            <span class="univ-name">Core Coursework</span>
-                            Deep immersion in Computer Organization & Architecture, Vector Calculus, Engineering
-                            Physics, and C Programming, alongside foundational Machine Learning concepts.
+                    <div class="repo-info-col">
+
+                        <span class="sih-badge">
+                            🚨 Concept & System Design
+                        </span>
+
+                        <span class="repo-stack">
+                            Automated SOS • Real-Time Routing • Mapping
+                        </span>
+
+                        <h3>
+                            Intelligent Emergency Response & Accident Alert System
+                        </h3>
+
+                        <p class="repo-desc">
+                            An automated emergency platform designed for rapid accident and SOS
+                            detection to minimize medical intervention delays. Instantly shares
+                            live victim coordinates with emergency services, nearby hospitals,
+                            and dispatched ambulances, while identifying the nearest available
+                            medical facilities and calculating optimal routes using real-time
+                            traffic data. Designed with full system flow diagrams, mapping
+                            dashboards, and app interface mockups bridging detection with
+                            emergency care.
                         </p>
-                        <div class="pill-wrap">
-                            <span class="badge-pill">Computer Organization & Architecture</span>
-                            <span class="badge-pill">Vector Calculus</span>
-                            <span class="badge-pill">Python</span>
-                            <span class="badge-pill">C Programming</span>
-                            <span class="badge-pill">ML Fundamentals</span>
+
+                        <div class="view-repo">
+
+                            View Case Study
+
+                            <svg
+                                width="14"
+                                height="14"
+                                viewBox="0 0 14 14"
+                                fill="none"
+                                style="margin-left:12px;">
+
+                                <path
+                                    d="M2.5 7H11.5M11.5 7L7.5 3M11.5 7L7.5 11"
+                                    stroke="currentColor"
+                                    stroke-width="1.3"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+
+                            </svg>
+
                         </div>
+
                     </div>
+
+                    <div class="repo-side-col">
+
+                        <span class="repo-stat">
+                            SYSTEM DESIGN
+                        </span>
+
+                        <span class="repo-stat">
+                            REAL-TIME
+                        </span>
+
+                        <span class="repo-stat">
+                            MAPPING
+                        </span>
+
+                    </div>
+
                 </div>
+
+                <!-- Project 2: AI Data Detective -->
+
+                <div class="repo-item">
+
+                    <span class="repo-idx">
+                        02
+                    </span>
+
+                    <div class="repo-info-col">
+
+                        <span class="repo-stack">
+                            Python • Streamlit • Machine Learning
+                        </span>
+
+                        <h3>
+                            AI-Data-Detective
+                        </h3>
+
+                        <p class="repo-desc">
+                            An AI-powered data analysis platform that transforms raw datasets
+                            into visual insights, statistical summaries, machine-learning
+                            predictions and downloadable analytical reports.
+                        </p>
+
+                        <div class="view-repo">
+
+                            View Project
+
+                            <svg
+                                width="14"
+                                height="14"
+                                viewBox="0 0 14 14"
+                                fill="none">
+
+                                <path
+                                    d="M2.5 7H11.5M11.5 7L7.5 3M11.5 7L7.5 11"
+                                    stroke="currentColor"
+                                    stroke-width="1.3"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+
+                            </svg>
+
+                        </div>
+
+                    </div>
+
+                    <div class="repo-side-col">
+
+                        <span class="repo-stat">
+                            PYTHON
+                        </span>
+
+                        <span class="repo-stat repo-stat-live">
+                            STREAMLIT
+                        </span>
+
+                        <span class="repo-stat">
+                            AI / ML
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <!-- Project 3: TreeSurvival / VrikshaSetu -->
+
+                <div class="repo-item">
+
+                    <span class="repo-idx">
+                        03
+                    </span>
+
+                    <div class="repo-info-col">
+
+                        <span class="repo-stack">
+                            GIS • AI Diagnostics • Sustainability
+                        </span>
+
+                        <h3>
+                            TreeSurvival / VrikshaSetu
+                        </h3>
+
+                        <p class="repo-desc">
+                            A technology-driven tree survival and adoption platform focused
+                            on live sapling tracking, GIS-based survival visualization,
+                            native-species analytics, AI-assisted diagnostics and tree
+                            adoption workflows.
+                        </p>
+
+                        <div class="view-repo">
+
+                            View Project
+
+                            <svg
+                                width="14"
+                                height="14"
+                                viewBox="0 0 14 14"
+                                fill="none">
+
+                                <path
+                                    d="M2.5 7H11.5M11.5 7L7.5 3M11.5 7L7.5 11"
+                                    stroke="currentColor"
+                                    stroke-width="1.3"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+
+                            </svg>
+
+                        </div>
+
+                    </div>
+
+                    <div class="repo-side-col">
+
+                        <span class="repo-stat repo-stat-live">
+                            LIVE TRACKING
+                        </span>
+
+                        <span class="repo-stat">
+                            GIS
+                        </span>
+
+                        <span class="repo-stat">
+                            AI
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <!-- Project 4: Visual Identity -->
+
+                <div class="repo-item">
+
+                    <span class="repo-idx">
+                        04
+                    </span>
+
+                    <div class="repo-info-col">
+
+                        <span class="repo-stack">
+                            Creative Technology • Generative AI
+                        </span>
+
+                        <h3>
+                            Visual Identity & Media Generation
+                        </h3>
+
+                        <p class="repo-desc">
+                            A collection of AI-assisted visual experiments focused on
+                            creative direction, image generation, visual identity,
+                            lighting setups, and subject consistency across scenes.
+                        </p>
+
+                        <div class="view-repo">
+
+                            View Project
+
+                            <svg
+                                width="14"
+                                height="14"
+                                viewBox="0 0 14 14"
+                                fill="none">
+
+                                <path
+                                    d="M2.5 7H11.5M11.5 7L7.5 3M11.5 7L7.5 11"
+                                    stroke="currentColor"
+                                    stroke-width="1.3"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round" />
+
+                            </svg>
+
+                        </div>
+
+                    </div>
+
+                    <div class="repo-side-col">
+
+                        <span class="repo-stat">
+                            GENERATIVE AI
+                        </span>
+
+                        <span class="repo-stat">
+                            DESIGN
+                        </span>
+
+                        <span class="repo-stat">
+                            MEDIA
+                        </span>
+
+                    </div>
+
+                </div>
+
             </div>
+
         </section>
+
+        <!-- ========== ACADEMICS ========== -->
 
         <div class="section-separator">
+
             <div class="line"></div>
-            <div class="num">05</div>
+
+            <div class="num">
+                04
+            </div>
+
             <div class="line"></div>
+
         </div>
 
-        <!-- ========== TECHNICAL SKILLS ========== -->
-        <section id="certifications" class="reveal">
-            <span class="section-tag">05 — Technical Profile</span>
-            <h2 class="h-large">Tools & Foundations</h2>
+        <section
+            id="experience"
+            class="reveal">
 
-            <div class="repos-grid">
-                <div class="repo-item" style="border-bottom: none;">
-                    <span class="repo-idx">01</span>
-                    <div class="repo-info-col">
-                        <span class="repo-stack">Programming & Tools</span>
-                        <h3>Python, C & ML Fundamentals</h3>
-                        <p class="repo-desc">Working proficiency in Python and C programming, with a growing
-                            foundation in Machine Learning concepts developed through coursework and independent
-                            project work.</p>
+            <span class="section-tag">
+                04 — Academics
+            </span>
+
+            <h2 class="h-large">
+                Education & Journey
+            </h2>
+
+            <div class="timeline-list">
+
+                <div class="timeline-row">
+
+                    <div class="time-label time-label-active">
+                        2025 — 2029
                     </div>
-                    <div class="repo-side-col">
-                        <span class="repo-stat">Python</span>
-                        <span class="repo-stat">C</span>
-                        <span class="repo-stat">Machine Learning</span>
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            B.Tech — Computer Science & Engineering
+                        </h3>
+
+                        <p>
+
+                            <span class="univ-name">
+                                Arka Jain University
+                            </span>
+
+                            Computer Science & Engineering with a focus on
+                            Artificial Intelligence and Machine Learning.
+
+                        </p>
+
+                        <div class="pill-wrap">
+
+                            <span class="badge-pill">
+                                CSE
+                            </span>
+
+                            <span class="badge-pill">
+                                AI & ML
+                            </span>
+
+                            <span class="badge-pill">
+                                Software Engineering
+                            </span>
+
+                        </div>
+
                     </div>
+
                 </div>
+
+                <div class="timeline-row">
+
+                    <div class="time-label">
+                        2023 — 2025
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Senior Secondary Education
+                        </h3>
+
+                        <p>
+
+                            <span class="univ-name">
+                                S.N Sinha College
+                            </span>
+
+                            Higher secondary education with a focus on
+                            Mathematics, Physics and Chemistry.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="timeline-row">
+
+                    <div class="time-label">
+                        2023
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>
+                            Secondary Education
+                        </h3>
+
+                        <p>
+
+                            <span class="univ-name">
+                                St. Ignatius School
+                            </span>
+
+                            Completed secondary education and developed an
+                            early interest in science and technology.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
             </div>
+
         </section>
 
-    </div><!-- /container -->
-
+    </div>
 
     <!-- ========== CONTACT ========== -->
-    <section id="contact" class="contact-blk">
-        <div class="container reveal">
+
+    <section
+        id="contact"
+        class="contact-blk">
+
+        <div class="container">
+
+            <span class="section-tag">
+                05 — Contact
+            </span>
+
             <h2 class="contact-h">
-                Let&rsquo;s build systems that are<br>
-                <span class="gold-it">intelligent, intentional, and enduring.</span>
+
+                Let&rsquo;s build something
+                <span class="gold-it">
+                    meaningful.
+                </span>
+
             </h2>
+
             <div class="contact-sep"></div>
+
             <div class="contact-grid">
-                <a href="mailto:your-email@example.com" class="contact-it">
-                    <span class="c-type">Email</span>
-                    <span class="c-val">ps859521@gmail.com</span>
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="c-arr">
-                        <path d="M3.33331 16.6667L16.6666 3.33333M16.6666 3.33333H6.66665M16.6666 3.33333V13.3333"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
+
+                <a
+                    href="mailto:ps859521@gmail.com"
+                    class="contact-it">
+
+                    <span class="c-type">
+                        Email
+                    </span>
+
+                    <span class="c-val">
+                        ps859521@gmail.com
+                    </span>
+
+                    <span class="c-arr">
+                        &rarr;
+                    </span>
+
                 </a>
-                <a href="https://www.linkedin.com/in/pranshu-kumar-singh-aa593b275/your-linkedin-handle/" target="_blank" rel="noopener" class="contact-it"
-                    aria-label="Visit Pranshu's LinkedIn profile">
-                    <span class="c-type">LinkedIn</span>
-                    <span class="c-val">https://www.linkedin.com/in/pranshu-kumar-singh-aa593b275</span>
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="c-arr" aria-hidden="true">
-                        <path d="M3.33331 16.6667L16.6666 3.33333M16.6666 3.33333H6.66665M16.6666 3.33333V13.3333"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
+
+                <a
+                    href="https://github.com/Pranshu250499"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-it">
+
+                    <span class="c-type">
+                        GitHub
+                    </span>
+
+                    <span class="c-val">
+                        github.com/Pranshu250499
+                    </span>
+
+                    <span class="c-arr">
+                        &rarr;
+                    </span>
+
                 </a>
-                <a href="https://github.com/Pranshu250499/your-github-handle" target="_blank" rel="noopener" class="contact-it"
-                    aria-label="Visit Pranshu's GitHub repository">
-                    <span class="c-type">GitHub</span>
-                    <span class="c-val">https://github.com/Pranshu250499</span>
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="c-arr" aria-hidden="true">
-                        <path d="M3.33331 16.6667L16.6666 3.33333M16.6666 3.33333H6.66665M16.6666 3.33333V13.3333"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
+
+                <a
+                    href="https://www.linkedin.com/in/pranshu-kumar-singh-aa593b275/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-it">
+
+                    <span class="c-type">
+                        LinkedIn
+                    </span>
+
+                    <span class="c-val">
+                        https://www.linkedin.com/in/pranshu-kumar-singh-aa593b275/
+                    </span>
+
+                    <span class="c-arr">
+                        &rarr;
+                    </span>
+
                 </a>
+
             </div>
+
         </div>
+
     </section>
 
-
-    <!-- ========== FOOTER ========== -->
     <footer>
-        <div class="container footer-flex">
-            <span>© 2026 Pranshu Kaundilya</span>
-            <div class="f-divider"></div>
-            <span>B.Tech CSE (AI & ML)</span>
+
+        <div class="container">
+
+            <div class="footer-flex">
+
+                <span>
+                    Pranshu Kumar Singh
+                </span>
+
+                <span class="f-divider"></span>
+
+                <span>
+                    Portfolio 2026
+                </span>
+
+                <span class="f-divider"></span>
+
+                <span>
+                    B.Tech CSE 
+                </span>
+
+            </div>
+
         </div>
+
     </footer>
 
-
     <script>
+
         document.addEventListener('DOMContentLoaded', () => {
+
             document.body.classList.add('js-ready');
 
             if (window.innerWidth < 1024) {
-                const noise = document.querySelector('.noise-overlay');
-                if (noise) noise.style.display = 'none';
+
+                const noise =
+                    document.querySelector('.noise-overlay');
+
+                if (noise) {
+                    noise.style.display = 'none';
+                }
+
             }
 
-            const ring = document.getElementById('ring');
-            const isTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+            const ring =
+                document.getElementById('ring');
 
-            if (ring && !isTouch && window.matchMedia('(hover: hover)').matches) {
-                let mouseX = window.innerWidth / 2, mouseY = window.innerHeight / 2;
-                let ringX = mouseX, ringY = mouseY;
+            const isTouch =
+                ('ontouchstart' in window) ||
+                (navigator.maxTouchPoints > 0);
 
-                window.addEventListener('mousemove', e => {
-                    mouseX = e.clientX;
-                    mouseY = e.clientY;
-                }, { passive: true });
+            if (
+                ring &&
+                !isTouch &&
+                window.matchMedia('(hover: hover)').matches
+            ) {
+
+                let mouseX =
+                    window.innerWidth / 2;
+
+                let mouseY =
+                    window.innerHeight / 2;
+
+                let ringX = mouseX;
+                let ringY = mouseY;
+
+                window.addEventListener(
+                    'mousemove',
+                    e => {
+
+                        mouseX = e.clientX;
+                        mouseY = e.clientY;
+
+                    },
+                    {
+                        passive: true
+                    }
+                );
 
                 const updateCursor = () => {
-                    const MathAbs = Math.abs;
-                    const dx = mouseX - ringX;
-                    const dy = mouseY - ringY;
 
-                    if (MathAbs(dx) > 0.05 || MathAbs(dy) > 0.05) {
+                    const MathAbs =
+                        Math.abs;
+
+                    const dx =
+                        mouseX - ringX;
+
+                    const dy =
+                        mouseY - ringY;
+
+                    if (
+                        MathAbs(dx) > 0.05 ||
+                        MathAbs(dy) > 0.05
+                    ) {
+
                         ringX += dx * 0.35;
                         ringY += dy * 0.35;
-                        ring.style.transform = `translate3d(${ringX - 19}px, ${ringY - 19}px, 0)`;
+
+                        ring.style.transform =
+                            `translate3d(
+                                ${ringX - 19}px,
+                                ${ringY - 19}px,
+                                0
+                            )`;
+
                     }
-                    requestAnimationFrame(updateCursor);
+
+                    requestAnimationFrame(
+                        updateCursor
+                    );
+
                 };
+
                 updateCursor();
 
-                const interactive = document.querySelectorAll('a, button, .skill-unit, .timeline-row, .repo-item');
+                const interactive =
+                    document.querySelectorAll(
+                        'a, button, .skill-unit, .timeline-row, .repo-item'
+                    );
+
                 interactive.forEach(el => {
-                    el.addEventListener('mouseenter', () => {
-                        ring.style.width = '64px'; ring.style.height = '64px';
-                        ring.style.backgroundColor = 'rgba(201,169,110,0.1)';
-                    });
-                    el.addEventListener('mouseleave', () => {
-                        ring.style.width = '38px'; ring.style.height = '38px';
-                        ring.style.backgroundColor = 'transparent';
-                    });
-                });
-            } else if (ring) {
-                ring.style.display = 'none';
-            }
 
-            const nav = document.getElementById('nav');
-            let ticking = false;
-            window.addEventListener('scroll', () => {
-                if (!ticking) {
-                    window.requestAnimationFrame(() => {
-                        if (nav) nav.classList.toggle('scrolled', window.scrollY > 60);
-                        ticking = false;
-                    });
-                    ticking = true;
-                }
-            }, { passive: true });
+                    el.addEventListener(
+                        'mouseenter',
+                        () => {
 
-            const revealElements = document.querySelectorAll('.reveal');
-            if ('IntersectionObserver' in window) {
-                const obs = new IntersectionObserver(entries => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            window.requestAnimationFrame(() => {
-                                entry.target.classList.add('visible');
-                            });
-                            obs.unobserve(entry.target);
+                            ring.style.width =
+                                '64px';
+
+                            ring.style.height =
+                                '64px';
+
+                            ring.style.backgroundColor =
+                                'rgba(201,169,110,0.1)';
+
                         }
-                    });
-                }, { threshold: 0.05, rootMargin: '0px 0px -50px 0px' });
-                revealElements.forEach(el => obs.observe(el));
-            } else {
-                revealElements.forEach(el => el.classList.add('visible'));
-            }
+                    );
 
-            const mobileLinks = document.querySelectorAll('.mobile-link');
-            const sections = document.querySelectorAll('section[id]');
+                    el.addEventListener(
+                        'mouseleave',
+                        () => {
 
-            const sectionObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const id = entry.target.getAttribute('id');
-                        mobileLinks.forEach(link => {
-                            link.classList.toggle('is-active', link.getAttribute('href') === `#${id}`);
-                        });
-                    }
+                            ring.style.width =
+                                '38px';
+
+                            ring.style.height =
+                                '38px';
+
+                            ring.style.backgroundColor =
+                                'transparent';
+
+                        }
+                    );
+
                 });
-            }, { threshold: 0.2, rootMargin: '-20% 0px -60% 0px' });
 
-            sections.forEach(s => sectionObserver.observe(s));
+            } else if (ring) {
 
-            const menuBtn = document.getElementById('hamburger-btn');
-            const closeBtn = document.getElementById('overlay-close-btn');
-            const overlay = document.getElementById('mobile-overlay');
+                ring.style.display =
+                    'none';
 
-            if (menuBtn && overlay) {
-                const openMenu = () => {
-                    overlay.classList.add('active');
-                    menuBtn.classList.add('open');
-                    document.body.style.overflow = 'hidden';
-                };
-                const closeMenu = () => {
-                    overlay.classList.remove('active');
-                    menuBtn.classList.remove('open');
-                    document.body.style.overflow = '';
-                };
-
-                menuBtn.addEventListener('click', () => overlay.classList.contains('active') ? closeMenu() : openMenu());
-                if (closeBtn) closeBtn.addEventListener('click', closeMenu);
-                mobileLinks.forEach(l => l.addEventListener('click', closeMenu));
             }
+
+            const nav =
+                document.getElementById('nav');
+
+            let ticking = false;
+
+            window.addEventListener(
+                'scroll',
+                () => {
+
+                    if (!ticking) {
+
+                        window.requestAnimationFrame(
+                            () => {
+
+                                if (nav) {
+
+                                    nav.classList.toggle(
+                                        'scrolled',
+                                        window.scrollY > 60
+                                    );
+
+                                }
+
+                                ticking = false;
+
+                            }
+                        );
+
+                        ticking = true;
+
+                    }
+
+                },
+                {
+                    passive: true
+                }
+            );
+
+            const revealElements =
+                document.querySelectorAll('.reveal');
+
+            if ('IntersectionObserver' in window) {
+
+                const obs =
+                    new IntersectionObserver(
+                        entries => {
+
+                            entries.forEach(
+                                entry => {
+
+                                    if (
+                                        entry.isIntersecting
+                                    ) {
+
+                                        window.requestAnimationFrame(
+                                            () => {
+
+                                                entry.target.classList.add(
+                                                    'visible'
+                                                );
+
+                                            }
+                                        );
+
+                                        obs.unobserve(
+                                            entry.target
+                                        );
+
+                                    }
+
+                                }
+                            );
+
+                        },
+                        {
+                            threshold: 0.05,
+                            rootMargin:
+                                '0px 0px -50px 0px'
+                        }
+                    );
+
+                revealElements.forEach(
+                    el => obs.observe(el)
+                );
+
+            } else {
+
+                revealElements.forEach(
+                    el =>
+                        el.classList.add(
+                            'visible'
+                        )
+                );
+
+            }
+
+            const mobileLinks =
+                document.querySelectorAll(
+                    '.mobile-link'
+                );
+
+            const sections =
+                document.querySelectorAll(
+                    'section[id]'
+                );
+
+            const sectionObserver =
+                new IntersectionObserver(
+                    (entries) => {
+
+                        entries.forEach(
+                            entry => {
+
+                                if (
+                                    entry.isIntersecting
+                                ) {
+
+                                    mobileLinks.forEach(
+                                        link => {
+
+                                            link.classList.toggle(
+                                                'is-active',
+                                                link.dataset.section ===
+                                                entry.target.id
+                                            );
+
+                                        }
+                                    );
+
+                                }
+
+                            }
+                        );
+
+                    },
+                    {
+                        threshold: 0.35
+                    }
+                );
+
+            sections.forEach(
+                section =>
+                    sectionObserver.observe(
+                        section
+                    )
+            );
+
+            const hamburger =
+                document.getElementById(
+                    'hamburger-btn'
+                );
+
+            const overlay =
+                document.getElementById(
+                    'mobile-overlay'
+                );
+
+            const closeBtn =
+                document.getElementById(
+                    'overlay-close-btn'
+                );
+
+            const openMenu = () => {
+
+                if (!hamburger || !overlay)
+                    return;
+
+                hamburger.classList.add(
+                    'open'
+                );
+
+                hamburger.setAttribute(
+                    'aria-expanded',
+                    'true'
+                );
+
+                overlay.classList.add(
+                    'active'
+                );
+
+                overlay.setAttribute(
+                    'aria-hidden',
+                    'false'
+                );
+
+                document.body.style.overflow =
+                    'hidden';
+
+            };
+
+            const closeMenu = () => {
+
+                if (!hamburger || !overlay)
+                    return;
+
+                hamburger.classList.remove(
+                    'open'
+                );
+
+                hamburger.setAttribute(
+                    'aria-expanded',
+                    'false'
+                );
+
+                overlay.classList.remove(
+                    'active'
+                );
+
+                overlay.setAttribute(
+                    'aria-hidden',
+                    'true'
+                );
+
+                document.body.style.overflow =
+                    '';
+
+            };
+
+            if (hamburger) {
+
+                hamburger.addEventListener(
+                    'click',
+                    () => {
+
+                        if (
+                            overlay &&
+                            overlay.classList.contains(
+                                'active'
+                            )
+                        ) {
+
+                            closeMenu();
+
+                        } else {
+
+                            openMenu();
+
+                        }
+
+                    }
+                );
+
+            }
+
+            if (closeBtn) {
+
+                closeBtn.addEventListener(
+                    'click',
+                    closeMenu
+                );
+
+            }
+
+            mobileLinks.forEach(
+                link => {
+
+                    link.addEventListener(
+                        'click',
+                        () => {
+
+                            closeMenu();
+
+                        }
+                    );
+
+                }
+            );
+
+            document.addEventListener(
+                'keydown',
+                e => {
+
+                    if (
+                        e.key === 'Escape' &&
+                        overlay &&
+                        overlay.classList.contains(
+                            'active'
+                        )
+                    ) {
+
+                        closeMenu();
+
+                    }
+
+                }
+            );
+
         });
+
     </script>
 
 </body>
